@@ -111,9 +111,9 @@ margin-bottom: 70px;
     .author{
         height: 54px;
         width: 54px;
-        background-image:  url(/images/author.png);
-        justify-self: flex-end;
-        align-self: end;
+        background-image:  url(./images/author.png);
+        
+        
     }
 
 .box-1 .caption{
