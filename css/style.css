@@ -1,0 +1,137 @@
+body {
+    background: #e2e7ec;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family:"Hans",sans-serif;
+}
+
+@font-face{
+    font-family:"Hans";
+    src: url(/fonts/HansKendrick-Regular.otf) format('otf');
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.mainer{
+    max-width: 1120px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.container [class^='box-'],
+.container-2 [class^='box-'] {
+   min-height: 530px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+    height: 540px;
+    justify-content: space-between;
+}
+
+
+.box-2, .box-3, .box-4, .box-5 {
+ flex-basis: 340px;
+background-color: white;
+margin: 0 ;
+display: flex;
+flex-direction: column;
+justify-content: start;
+}
+
+.box-1 {
+    flex-basis: 740px;
+    background-image: linear-gradient(to top, rgb(0, 0, 0.9), rgba(255,0,0,0)), url(../images/car.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 540px;
+}
+  
+.date {
+font-size: 13px;
+ color: #818181;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+.caption{
+ font-size: 20px;
+ text-transform: uppercase;
+font: sans-serif;
+ font-weight: bold;
+margin-bottom: 70px;
+ font-family:"Hans", sans-serif;
+ }
+
+.text{
+     display: flex;
+     flex-direction: column;
+     margin: 30px;
+ }
+ 
+    .author{
+        height: 54px;
+        width: 54px;
+        background-image:  url(/images/author.png);
+        justify-self: flex-end;
+        align-self: end;
+    }
+
+.box-1 .caption{
+color: white;
+font-size: 30px;
+}
+
+.box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.text1{
+    flex: 50%;
+margin: 0 0 -20px 45px;
+display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
